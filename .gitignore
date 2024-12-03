@@ -16,6 +16,15 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# Evita commitar dependências e certificados
+ios/Gemfile.lock
+ios/vendor
+ios/fastlane/*
+
+# Permite commitar arquivos necessários
+!ios/fastlane/Appfile
+!ios/fastlane/Fastfile
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.

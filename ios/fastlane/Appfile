@@ -1,0 +1,2 @@
+app_identifier("com.example.simpleBlocExample") # Change the identifier of your app
+apple_id("UVJ98QXWDJ") # Change for the real ID of your Apple Account
